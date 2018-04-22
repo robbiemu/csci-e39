@@ -40,8 +40,16 @@ h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.25rem; }
 
+figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
+
 @import './styleguide/samples/samples';
 
 @import "./styleguide/FlyoutMenu";
 @import "./styleguide/MainNavigation";
 @import "./styleguide/MessageCard";
+
+@import "./styleguide/ChannelTile";
+@import "./styleguide/AdTile";

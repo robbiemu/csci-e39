@@ -1,0 +1,21 @@
+@import "../styles/defs";
+
+.tile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: $primary-color;
+	grid-column: span 1;
+	color: $highlight-color;
+  font: $primary-font;
+	text-align: center;
+  
+  p, figcaption {
+  	background-color: $primary-color;
+  	color: $highlight-color;
+  	text-align: center;
+  	margin: 0;
+  	font-size: 1.5rem;
+  }
+}
