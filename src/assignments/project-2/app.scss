@@ -18,6 +18,13 @@ body {
   display: flex;
 }
 
+main { 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
 .component {
   background: $primary-color;
   color: $primary-text-color;
@@ -53,3 +60,5 @@ figure, figcaption {
 
 @import "./styleguide/ChannelTile";
 @import "./styleguide/AdTile";
+
+@import "./styleguide/MessageList";
